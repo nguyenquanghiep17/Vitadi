@@ -1,0 +1,21 @@
+rootProject.name = 'cloneVitadi'
+include ':react-native-onesignal'
+project(':react-native-onesignal').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-onesignal/android')
+include ':react-native-voice'
+project(':react-native-voice').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-voice/android')
+include ':react-native-speak'
+project(':react-native-speak').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-speak/android')
+include ':react-native-speak'
+project(':react-native-speak').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-speak/android')
+include ':react-native-speak'
+project(':react-native-speak').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-speak/android')
+include ':react-native-tts'
+project(':react-native-tts').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-tts/android')
+include ':react-native-tts'
+project(':react-native-tts').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-tts/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
