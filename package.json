@@ -28,7 +28,7 @@
     "react-native-multiple-choice": "0.0.8",
     "react-native-multiple-choice-picker": "^1.0.6",
     "react-native-onesignal": "^3.7.3",
-    "react-native-reanimated": "^1.8.0",
+    "react-native-reanimated": "^2.10.0",
     "react-native-safe-area-context": "^0.7.3",
     "react-native-screens": "^2.4.0",
     "react-native-speak": "^1.0.14",
